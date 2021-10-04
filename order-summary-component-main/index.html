@@ -17,7 +17,7 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
-        font-size: 11px;
+        font-size: 1rem;
         text-align: center;
       }
       .attribution a {
@@ -26,16 +26,63 @@
     </style>
   </head>
   <body>
-    Order Summary You can now listen to millions of songs, audiobooks, and
-    podcasts on any device anywhere you like! Annual Plan $59.99/year Change
-    Proceed to Payment Cancel Order
+    <!-- Order Summary Card -->
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://github.com/priteshp97" target="_blank">Pritesh Patel</a>.
+    <div class="card-container">
+      <!-- hero -->
+
+      <header class="hero">
+        <img src="./images/illustration-hero.svg" alt="hero img" />
+      </header>
+
+      <!-- main section -->
+      <main class="main">
+        <section class="title-info-container">
+          <h1 class="title">Order Summary</h1>
+          <p class="info">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </section>
+        <!-- plan -->
+
+        <section class="plan-container">
+          <div class="plan-icon">
+            <img src="./images/icon-music.svg" alt="music icon" />
+          </div>
+          <div class="plan-info">
+            <h4 class="plan-info-title">Annual Plan</h4>
+            <p class="plan-info-price">$59.99/year</p>
+          </div>
+          <div class="plan-change">
+            <a href="#">Change</a>
+          </div>
+        </section>
+
+        <!-- buttons -->
+        <section class="button-container">
+          <div class="payment-btn-container">
+            <button class="payment-btn">Proceed to Payment</button>
+          </div>
+
+          <div class="cancel-order-btn-container">
+            <button class="cancel-btn">Cancel Order</button>
+          </div>
+        </section>
+      </main>
     </div>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/priteshp97" target="_blank">Pritesh Patel</a
+        >.
+      </div>
+    </footer>
   </body>
 </html>
